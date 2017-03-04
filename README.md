@@ -1,14 +1,5 @@
-# A Blank PhoneGap App
+# Vivit Mobile POC
 
 ## Usage
 
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+### Proof of concept app to experiment with getting the technologies in place.
