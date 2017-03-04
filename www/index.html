@@ -1,0 +1,53 @@
+<!--
+/**********************************************************************************
+ *                       - V i v i t   W o r l d w i d e -
+ *
+ * index.html (VivitMobilePOC2)
+ *=================================================================================
+ * Written by: Mark Ford / 03-01-2017
+ *
+ * The main html content for the Vivit Mobile App
+ **********************************************************************************/
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>Vivit Mobile POC2</title>
+	
+	<link rel='stylesheet' href='spec/jquery.mobile-1.4.5.min.css'>
+	<link rel='stylesheet' href='css/vivit.mobile.css'>
+	
+	
+	<script src='spec/jquery-1.12.4.min.js'></script>
+	<script src='spec/jquery.mobile-1.4.5.min.js'></script>
+	<script src='js/vivit.mobile.js'></script>
+</head>
+
+<body>
+	<!--===============================================================================
+	 | Cordova reference.
+	 ================================================================================-->
+	<script src="cordova.js"></script>
+
+	
+	<!--===============================================================================
+	 | Dashboard definition.
+	 ================================================================================-->
+	<div id='dashboard' data-role='page'>
+		<div class='mainHeader' data-role='header' data-position='fixed' data-tap-toggle='false'>
+			<img class='mainHeaderIcon' src='img\vivit_logo.png'>
+			<span class='mainHeaderTitle'>Vivit Mobile POC2</span> 
+		</div>
+
+		<div class='ui-content' data-role='main'>
+			<div id='mainBannerAdd'></div>
+			<div class='dashboard'>This is a test 2.</div>
+		</div>
+	</div>
+</body>
+
+</html>
