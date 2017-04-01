@@ -1,0 +1,32 @@
+<!--
+/**********************************************************************************
+ *                       - V i v i t   W o r l d w i d e -
+ *
+ * vivit.mobile.css (VivitMobilePOC2)
+ *=================================================================================
+ * Written by: Mark Ford / 03-01-2017
+ *
+ * Style definitions for the application.
+ **********************************************************************************/
+-->
+
+.ui-panel-inner {
+	padding: 0 !important;
+}
+
+.mainHeader {
+	padding: 15px;
+}
+
+.mainHeaderIcon {
+	height: 45px;
+	width: 45px;
+	vertical-align: middle;
+}
+
+.mainHeaderTitle {
+	padding-left: 10px;
+	font-size: 20pt;
+	white-space: nowrap;
+	overflow: hidden;
+}
